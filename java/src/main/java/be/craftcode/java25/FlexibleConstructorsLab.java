@@ -1,4 +1,4 @@
-package be.craftcode.java25.language;
+package be.craftcode.java25;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,7 +13,7 @@ import java.util.List;
  */
 public class FlexibleConstructorsLab {
 
-    public static final class LegacyPanel {
+    public static class LegacyPanel {
         private final String title;
         private final int width;
         private final List<String> auditTrail;

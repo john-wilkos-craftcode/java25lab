@@ -1,4 +1,4 @@
-package be.craftcode.java25.language;
+package be.craftcode.java25;
 
 import org.junit.jupiter.api.Test;
 
