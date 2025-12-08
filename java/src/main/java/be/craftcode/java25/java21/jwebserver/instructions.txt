@@ -1,0 +1,12 @@
+First, make sure you're in the correct folder.
+
+In vscode, right-click this folder (jwebserver) and click "Open In Integrated Terminal" (fourth option from the top).
+
+Or, simply open a terminal and enter "cd java21-22-23lab/src/main/java/be/craftcode/ap/jwebserver"
+(copy the above command and shift + insert to paste in terminal).
+
+To serve the page locally (accessible on your own machine),
+once you're in the folder you want to serve, simply write the command "jwebserver" and hit enter. 
+The index.html webpage will be available on your machine at http://localhost:8000 .
+
+Hit CTRL-C in the terminal to stop the server.
