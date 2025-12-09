@@ -1,4 +1,4 @@
-package be.craftcode.java25.java21.gatherers;
+package be.craftcode.java25;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,10 +1,11 @@
-package be.craftcode.java25.java21.gatherers;
+package be.craftcode.java25;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+
 import org.junit.jupiter.api.Test;
 
 class Java22GatherersTest {
