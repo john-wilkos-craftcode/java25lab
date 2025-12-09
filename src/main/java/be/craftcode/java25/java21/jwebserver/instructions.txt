@@ -2,7 +2,7 @@ First, make sure you're in the correct folder.
 
 In vscode, right-click this folder (jwebserver) and click "Open In Integrated Terminal" (fourth option from the top).
 
-Or, simply open a terminal and enter "cd java21-22-23lab/src/main/java/be/craftcode/ap/jwebserver"
+Or, simply open a terminal and enter "cd src/main/java/be/craftcode/java25/java21/jwebserver"
 (copy the above command and shift + insert to paste in terminal).
 
 To serve the page locally (accessible on your own machine),

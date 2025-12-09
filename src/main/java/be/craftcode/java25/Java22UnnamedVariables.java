@@ -13,10 +13,10 @@ record Author(String firstName, String lastName, int age, List<Award> awards) {
 record Book(String title, int pages, double price, Author author) {
 }
 
-/// # [JEP 456](https://openjdk.org/jeps/440): Unnamed Variables & Patterns
-/// This is a
+/// # [JEP 456](https://openjdk.org/jeps/456): Unnamed Variables & Patterns
+/// This is an updated version of the Record patterns class to focus on the unnamed variables aspect.
 ///
-/// ##### [JEP 440](https://openjdk.org/jeps/440): Record Patterns
+/// ##### RELATED: [JEP 440](https://openjdk.org/jeps/440): Record Patterns
 ///
 /// ```java
 /// static void printXCoordOfUpperLeftPointWithPatterns(Rectangle r) {
@@ -25,7 +25,6 @@ record Book(String title, int pages, double price, Author author) {
 ///     }
 /// }
 /// ```
-///
 public class Java22UnnamedVariables {
 
     public String oldStyleFindOldestAwardCategoryForAuthorOfBook(Object obj) {
