@@ -6,9 +6,9 @@ import java.time.LocalDateTime;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class FlexibleConstructorsLabTest {
+class Java25FlexibleConstructorsLabTest {
 
-    private final FlexibleConstructorsLab lab = new FlexibleConstructorsLab();
+    private final Java25FlexibleConstructorsLab lab = new Java25FlexibleConstructorsLab();
     private final LocalDateTime baseTime = LocalDateTime.of(2024, 5, 1, 8, 0);
 
     @Test

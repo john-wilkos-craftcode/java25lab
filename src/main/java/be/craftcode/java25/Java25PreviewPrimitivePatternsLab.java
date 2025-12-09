@@ -4,7 +4,7 @@ package be.craftcode.java25;
 /// Primitive type patterns can now be used directly in `switch` and `instanceof`
 /// constructs. Inspired by the JEP examples, this lab demonstrates matching on
 /// booleans and large `long` constants without awkward helper code.
-public class PrimitivePatternsLab {
+public class Java25PreviewPrimitivePatternsLab {
 
     /// Demo switch: inspects primitive values (including booleans and longs)
     /// directly, with guards for the trickier cases.

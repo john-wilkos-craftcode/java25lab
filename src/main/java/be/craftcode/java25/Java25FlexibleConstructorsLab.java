@@ -14,7 +14,7 @@ import java.util.Objects;
 /// access subclass fields *before* they were initialized. With flexible
 /// constructor bodies, validation and initialization can now run before the
 /// call to `super(...)`, preventing partially initialized state from leaking.
-public class FlexibleConstructorsLab {
+public class Java25FlexibleConstructorsLab {
 
     public static abstract class TransportTicket {
         private final double price;

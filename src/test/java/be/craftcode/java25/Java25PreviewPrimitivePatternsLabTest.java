@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class PrimitivePatternsLabTest {
+class Java25PreviewPrimitivePatternsLabTest {
 
-    private final PrimitivePatternsLab lab = new PrimitivePatternsLab();
+    private final Java25PreviewPrimitivePatternsLab lab = new Java25PreviewPrimitivePatternsLab();
 
     @Test
     void describePayloadUnderstandsPrimitivePatterns() {
