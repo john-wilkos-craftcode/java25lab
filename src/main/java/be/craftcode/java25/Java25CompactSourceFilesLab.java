@@ -26,6 +26,8 @@
 ///     }
 /// }
 /// ```
+/// ![meme](../../../../resources/meme.png)
+///
 /// Now, a simple `void main(){ }` is all you need! Also, the new IO package has your IN and OUT needs covered.
 ///
 void main() {
