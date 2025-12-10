@@ -53,8 +53,8 @@ public class Java22UnnamedVariables {
     /// record Book(String title, int pages, double price, Author author) {}
     /// ```
     /// ## TODO 1 :
-    /// 1. Use the new record patterns to return the oldest award that the
-    /// author of the book has.
+    /// 1. Use record patterns and the new unnamed variables to return the oldest award that the
+    /// author of the input book has.
     /// 2. Return an empty string if no match is found.
     public String findOldestAwardCategoryForAuthorOfBook(Object obj) {
         return "fail";

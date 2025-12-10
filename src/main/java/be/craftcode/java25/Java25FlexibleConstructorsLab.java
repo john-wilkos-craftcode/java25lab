@@ -147,16 +147,16 @@ public class Java25FlexibleConstructorsLab {
 
         /// TODO 1: Complete this constructor to demonstrate flexible constructor bodies.
         /// Requirements:
-        ///  - Validate that `provider` is not blank and `freeMinutes` is > 0
+        /// 1. Validate that `provider` is not blank and `freeMinutes` is > 0
         ///    before calling `super(...)`.
-        ///  - Normalize the provider with [String#trim()] and store it in the field.
-        ///  - Compute `deposit` as {`Math.min(75.0, freeMinutes * 1.25)` before
+        /// 2. Normalize the provider with [String#trim()] and store it in the field.
+        /// 3. Compute `deposit` as {`Math.min(75.0, freeMinutes * 1.25)` before
         ///    invoking the `super(...)` constructor.
-        ///  - Finally, invoke `super(price, validFrom, validTo, zone)` so that the
+        /// 4. Finally, invoke `super(price, validFrom, validTo, zone)` so that the
         ///    [TransportTicket] constructor logs the already-initialized values.
         public SharedBikePass(double price, LocalDateTime validFrom, LocalDateTime validTo, String zone, String provider, int freeMinutes) {
             super(price, validFrom, validTo, zone);
-            throw new UnsupportedOperationException("TODO: initialize provider, free minutes, and deposit before calling super.");
+            throw new UnsupportedOperationException("TODO: validate and initialize fields before calling super.");
         }
 
         @Override
@@ -181,14 +181,14 @@ public class Java25FlexibleConstructorsLab {
         private final String studentId;
         private final int age;
 
-        /// TODO 2: Finish this constructor so students can initialize and validate their state
-        /// before invoking {@code super(...)}.
-        /// Requirements:
-        ///  - {@code studentId} must be non-blank; trim it and store the trimmed value.
-        ///  - {@code age} must be between 17 and 26 (inclusive), otherwise throw
-        ///    {@link IllegalArgumentException}.
-        ///  - Assign both fields *before* calling {@code super(...)} so that
-        ///    {@link TransportTicket}'s constructor logs the correct information.
+        ///TODO 2: Finish this constructor so students can initialize and validate their state
+        ///before invoking `super(...)`.
+        ///Requirements:
+        ///1. `studentId` must be non-blank; trim it and store the uppercased trimmed value.
+        ///2. `age` must be between 17 and 26 (inclusive), otherwise throw
+        ///[IllegalArgumentException].
+        ///3. Assign both fields *before* calling `super(...)` so that
+        ///[TransportTicket]'s constructor logs the correct information.
         public StudentSubscription(double price, LocalDateTime validFrom, LocalDateTime validTo, String zone, String studentId, int age) {
             super(price, validFrom, validTo, zone);
             throw new UnsupportedOperationException("TODO: validate student data and initialize fields before calling super.");

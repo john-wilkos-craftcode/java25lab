@@ -37,12 +37,13 @@ public class Java25PreviewPrimitivePatternsLab {
 
     /// *TODO 1: Dispatch commands using a `long` switch, as shown in the JEP.*
     /// Requirements:
-    ///  - Use a `switch` on the primitive `long` command code.
-    ///  - Recognize `1L` as "dispatch:new-order" and `2L` as "dispatch:status-check".
-    ///  - Treat `10_000_000_000L` as "dispatch:priority-escalation" and
+    /// 1. Use a `switch` on the primitive `long` command code.
+    /// 2. Recognize `1L` as "dispatch:new-order" and `2L` as "dispatch:status-check".
+    /// 3. Treat `10_000_000_000L` as "dispatch:priority-escalation" and
     ///    `20_000_000_000L` as "dispatch:bulk-export".
-    ///  - For all other values, capture the primitive with `case long other ->`
+    /// 4. For all other values, capture the primitive with `case long other ->`
     ///    and return "dispatch:fallback:*value*".
+    ///
     /// The method should compile before you implement it; the accompanying tests
     /// will fail until you replace the exception with the switch.
     public String describeCommand(long commandCode) {
