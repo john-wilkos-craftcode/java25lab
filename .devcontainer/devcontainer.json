@@ -1,0 +1,22 @@
+{
+    "name": "Java 25 Codespace (Preview)",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+        "ghcr.io/devcontainers/features/java:1": {
+            "version": "25.0.1-tem",
+            "jdkDistro": "tem",
+            "installMaven": true
+        }
+    },
+    "remoteEnv": {
+        "JAVA_TOOL_OPTIONS": "--enable-preview"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "vscjava.vscode-java-pack"
+            ]
+        }
+    },
+    "remoteUser": "vscode"
+}
